@@ -1,0 +1,141 @@
+/* adding poppin google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+/* Utility and Global and common designs */
+
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+/* header section design */
+
+.header{
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgb(176, 186, 210);
+}
+.header .container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* designing logo and nav bar */
+
+.logo p{
+    font-size: 35px;
+}
+
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+}
+.nav-bar ul li a{
+    margin: 0px 10px;
+    padding: 5px 15px;
+    font-size: 18px;
+    color: rgb(176, 186, 210);
+}
+
+/* setting up the banner bg */
+
+.header-section{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('image/banner.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* banner content design */
+.banner-content{
+    height:90vh;
+}
+.banner-content .container{
+    color: rgb(255, 255, 255);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-content h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.right-content img{
+    width: 70%;
+    height: auto;
+    display: block;
+    float: right;
+}
+.right-content::after{
+    clear: right;
+}
+
+/* designing About us section */
+.about-section{
+    margin: 30px 0px;
+    text-align: center;
+}
+.about-section h2{
+    font-size: 35px;
+    padding: 0px 0px 20px 0px;
+}
+.about-section p{
+    margin: 0px auto;
+    font-size: 18px;
+    width: 70%;
+}
+
+/* designing footer */
+footer{
+    margin: 0px auto;
+    height: 100%;
+    width: 100%;
+    padding: 30px 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: black;
+}
+.footer .nav-bar{
+    text-align: center;
+}
+footer .nav-bar ul li a{
+    color: black;
+}
+footer p{
+    text-align: center;
+}
+.center-content{
+    width: 50%;
+    margin: 0px auto;
+}
+.social-icon{
+    text-align: center;
+    margin: 10px 0px;
+}
+.social-icon ul{
+    list-style: none;
+}
+.social-icon ul li{
+    display: inline-block;
+}
+.social-icon ul li a{
+    color: blue;
+    font-size: 22px;
+    padding: 0px 7px;
+}
